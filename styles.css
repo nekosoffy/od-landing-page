@@ -80,10 +80,8 @@ ul {
 
 .button {
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     font-weight: bold;
-    font-size: 15px;
-    padding: 8px 30px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -91,6 +89,8 @@ ul {
 .button-1 {
     outline-style: none;
     border-style: none;
+    font-size: 15px;
+    padding: 8px 30px;
 }
 
 .image-1 {
@@ -157,4 +157,44 @@ ul {
     font-weight: bold;
     font-style: normal;
     font-size: 26px;
+}
+
+.section-4 {
+    padding: 100px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 110px;
+    gap: 20px;
+    width: 1000px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-shrink: 1;
+}
+
+.action-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-2 {
+    display: flex;
+    flex-shrink: 0;
+    border-style: none;
+    outline: solid #E5E7EB 2px;
+    font-size: 16px;
+    padding: 8px 33px;
 }
