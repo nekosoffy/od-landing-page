@@ -98,3 +98,40 @@ ul {
     height: auto;
     border-radius: 6px;
 }
+
+.section-2 {
+    margin: 50px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.image-2 {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    max-width: 200px;
+    text-align: center;
+    color: #696969;
+    font-size: 18px;
+}
