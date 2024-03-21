@@ -135,3 +135,26 @@ ul {
     color: #696969;
     font-size: 18px;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 810px;
+    padding: 130px 10px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+}
