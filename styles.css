@@ -40,7 +40,6 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 800;
-    margin-right: 30%;
 }
 
 .header-links {
@@ -53,8 +52,7 @@ ul {
     background-color: #1F2937;
     display: flex;
     padding: 100px 0;
-    justify-content: space-around;
-    gap: 16px;
+    justify-content: space-evenly;
 }
 
 .upper-text {
@@ -71,11 +69,13 @@ ul {
 
 .left-side {
     max-width: 450px;
-    margin-right: 6%
+    margin-right: -2.2%;
+    padding: 0 10px;
 }
 
 .right-side {
     max-width: 500px;
+    padding: 0 10px;
 }
 
 .button {
